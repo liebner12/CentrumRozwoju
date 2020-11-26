@@ -1,0 +1,33 @@
+hr {
+  border: 0;
+  height: 2px;
+  background: rgba(0, 0, 0, 0);
+}
+
+#offert-section .card {
+  border: none;
+  border-radius: 2rem;
+  box-shadow: 0 8px 6px -6px black;
+}
+
+#offert-section .card .card-img-top {
+  border-top-right-radius: 2rem;
+  border-top-left-radius: 2rem;
+}
+
+#offert-section img {
+  object-fit: cover;
+}
+
+.mybtnText {
+  width: 100%;
+  padding: 10px;
+  font-size: 1.2rem;
+  font-weight: 600; 
+  font-family: 'Source Sans Pro', sans-serif;
+  color: rgba(40, 40, 40,0.9);
+}
+
+p{
+  margin: 0;
+}
