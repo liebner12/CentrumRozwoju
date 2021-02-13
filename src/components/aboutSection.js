@@ -110,6 +110,11 @@ const SliderItem = styled.div`
   }
 `
 
+const Placeholder = styled.div`
+  height: 300px;
+`
+
+
 function aboutSection() {
   return (
     <div>
@@ -138,28 +143,28 @@ function aboutSection() {
               <Carousel indicators={false} interval={2500}>
                 <Carousel.Item>
                   <SliderItem>
-                    <PersonelImages image={3}></PersonelImages>
+                    <Placeholder/>
                     <h4>Ania</h4>
                     <p>Integracja Sensoryczna</p>
                   </SliderItem>
                 </Carousel.Item>
                 <Carousel.Item>
                   <SliderItem>
-                    <PersonelImages image={0}></PersonelImages>
+                    <Placeholder/>
                     <h4>Marta</h4>
                     <p>Logopeda</p>
                   </SliderItem>
                 </Carousel.Item>
                 <Carousel.Item>
                   <SliderItem>
-                    <PersonelImages image={1}></PersonelImages>
+                    <Placeholder/>
                     <h4>Magda </h4>
                     <p>Integracja Sensoryczna</p>
                   </SliderItem>
                 </Carousel.Item>
                 <Carousel.Item>
                   <SliderItem>
-                    <PersonelImages image={2}></PersonelImages>
+                    <Placeholder/>
                     <h4>Patrycja</h4>
                     <p>Fizjoterapeuta</p>
                   </SliderItem>
